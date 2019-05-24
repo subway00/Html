@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+td { background-color: aquamarine}
+td.RRR,td.SSS {
+	background-color: beige;
+	margin
+}
+.RRR p , .SSS p{color: #0CCB51}
+.TTT h1 {
+	color: #0C0AE1;
+	text-align: center;
+}
+.TTT h4 {
+	color: burlywood;
+	text
+}
+.TTT p {color: brown}
+.TTT {
+	text-align: justify;
+	background-color: coral ;
+	font-size: 25px ;
+	padding : 50px ;
+	
+}

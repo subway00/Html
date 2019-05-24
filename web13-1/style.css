@@ -1,0 +1,18 @@
+@charset "utf-8";
+@import url("reset.css");
+
+div {
+	background-image: url(banner.jpg);
+	margin:0 auto;
+	width: 1200px;
+	height: 150px;
+	padding-top: 200px;
+	padding-left: 650px;
+}
+h1 {
+	background-color: rgba(139,249,155,1.00);
+	
+}
+
+
+

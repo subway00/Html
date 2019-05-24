@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+body {background-color: darkgrey}
+h1 {
+	background-image: url(btn02.png);
+	width: 400px;
+	padding-left: 400px;
+}
+h2 {background-color: burlywood}
+p {background-color: darkgreen}
+a {
+	display: block ;
+	background-color: darkorange ;
+	width: 500px;
+	height: 150px;
+	text-decoration: none ;
+}
+a:hover {
+	background-color: chocolate ;
+}

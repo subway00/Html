@@ -1,0 +1,18 @@
+@charset "utf-8";
+div{
+	background-image: url(box.png);
+	width: 300px;
+	
+}
+h1{
+	
+}
+p a{
+	display: block;
+	background-image: url(btn01.png);
+	height: 60px;
+	padding-left: 70px;
+	line-height:60px;
+	
+	
+}

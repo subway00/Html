@@ -1,0 +1,65 @@
+@charset "utf-8";
+*: 0px;
+body {
+	margin: 0px;
+}
+div {
+	background-image: url(banner.png);
+	width: 1000px;
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+h1 {
+	background-color: rgba(126,139,235,1.00);
+	position: absolute;
+	left: -4px;
+	top: -4px;
+}
+ul {
+	position: absolute;
+	left: 430px;
+	top: 14px;
+	width: 547px;
+	
+	
+}
+li {
+	float: left;
+	
+	list-style: none;
+	
+	
+}
+li a {
+	display: block;
+	width: 98px;
+	padding-top: 100px;
+	margin-right: 10px;
+	background-repeat: no-repeat;
+	background-image: url(icon1.png);
+	height: 13px;
+	text-align: center;
+	text-decoration: none;
+}
+li.A a {
+	background-image: url(icon1.png);
+}
+li.B a {
+	background-image: url(icon2.png);
+}
+li.C a {
+	background-image: url(icon3.png);
+}
+li.D a {
+	background-image: url(icon4.png);
+}
+li.E a {
+	background-image: url(icon5.png);
+}
+
+
+a:hover {
+	background-position: right top;
+}

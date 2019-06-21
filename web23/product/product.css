@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content .box{
+	width: 290px;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	transition: all 1s;
+}
+.content .box:hover {
+	box-shadow: 5px 5px 5px black;
+	transform: translate(-10px, -10px);
+}
+.content .box a{
+	display: block;
+}
+.content h4{
+	
+}
+.content h5{
+	
+}
+.content .box img{
+	border-radius: 0px;
+	border: none;
+}

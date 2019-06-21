@@ -26,17 +26,32 @@ body {
 	
 }
 .nav {
-	
+	background-color: #ED6687;
+	padding: 15px;
+	height: 140px;
+	position: relative;
 }
 .nav ul {
-	
-}
+	position: absolute;
+	left: 97px;
+	top: 62px;
+	width: 964px;
+	}
 .nav li {
 	list-style: none;
-	
+	float:left;
 }
 .nav li a {
 	display: block;
+	background-color: #66E1DC;
+	text-decoration: none;
+	
+	height:50px;
+	line-height: 50px;
+	width: 140px;
+	text-align: center;
+	margin-right: 20px;
+	
 }
 .content {
 	padding: 10px;
@@ -50,13 +65,26 @@ body {
 }
 .content img {
 	float: left;
+	margin: 10px;
 }
 .footer {
+	background-color: #0A8349;
+	text-align: center;
+	color: white;
 	
+	height: 80px;
+	position: relative;
 }
 .footer h3 {
-	
+	background-color: #8C0773;
+	position: absolute;
+	width: 250px;
+	left: 364px;
+	top: 13px;
 }
 .footer p {
-	
+	background-color: #146ADF;
+	position: absolute;
+	left: 365px;
+	top: 48px;
 }

@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content .p1 {
+	float: left;
+	margin-bottom: 15px;
+}
+.content .p2 {
+	float:right;
+	margin-bottom: 15px;
+}
+.content .p3 {
+	clear: both;
+}
+.content .p4 {
+	clear: both;
+}

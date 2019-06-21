@@ -1,0 +1,137 @@
+@charset "utf-8";
+@import url("product/product.css");
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	
+	background-image: url(bg.gif);
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	
+	background-image: url(wrapper_bg.jpg);
+}
+.header{
+	background-color: #E07906;
+	overflow: hidden;
+}
+.header h1{
+	float: left;
+	animation: xxx 5s infinite alternate;
+}
+@keyframes xxx{
+	0% {
+		transform: translateY(-100px);
+		
+	}
+	25% {
+		opacity: 50;
+	}
+	30% {
+		transform: translateY(0px) rotateY(0deg) perspective(100px) ;
+		opacity: 0; 
+	}
+	
+	50%{
+		opacity: 50;
+	}
+	100% {
+		transform: translateY(0px) rotateY(360deg) perspective(10px);
+	}
+}
+.header ul{
+	padding-top: 20px;
+}
+.header ul li{
+	list-style: none;
+	float: right;
+}
+.header ul li a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	text-decoration: none;
+	margin-left: 10px;
+	color: aliceblue;
+	font-size: 25px;
+	line-height: 50px;
+}
+.header a:hover{
+	color: #ECC798;
+	text-decoration:underline;
+}
+.banner img{
+	vertical-align: bottom;
+}
+.nav{
+	float: left;
+	
+	width: 160px;
+	padding: 20px;
+	
+}
+.nav ul{}
+.nav ul li{
+	list-style: none;
+	margin-bottom: 15px;
+}
+.nav ul li a{
+	display: block;
+	height: 70px;
+	text-decoration: none;
+	line-height: 70px;
+	text-align: center;
+	border-bottom:#D7C0C0 solid; 
+}
+.nav li:first-of-type a{
+	border-top:#D7C0C0 solid; 
+}
+.nav a:hover{
+	color: #DAF55D;
+}
+
+.content{
+	margin: 0;
+	float: right;
+	width: 960px;
+	padding: 20px;
+	background-image: url()
+}
+.content img{
+	border-radius: 30px;
+	border: #EFD3D4 15px solid;
+}
+.content iframe{
+	width: 960px;
+}
+.container h2{
+	width: 600px;
+	background-image: url(title_bg.png);
+	margin-bottom: 20px;
+	
+}
+.container h3{
+	margin-bottom: 15px;
+	border-left: #7E410C 15px solid;
+	background-color: #C78C0C;
+	width: 300px;
+	padding-left:15px;
+}
+.container p{
+	margin-bottom: 15px;
+}
+
+.footer{
+	clear: both;
+	text-align: center;
+	height: 70px;
+	line-height: 35px;
+	background-color: black;
+	color: white;
+}
+.footer h2{}
+.footer h4{}

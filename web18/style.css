@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	}
+body{
+	background-color:#CCC;}
+h1{
+	font-size:60px;
+	text-align:center;
+	margin:10px;}
+h2{
+	font-family: xxx;
+	font-size: 65px;
+}
+.wrapper{
+	background-color:#FFF;
+	width:1200px;
+	margin:20px auto;
+	padding:20px;
+	display:flex;
+	justify-content:space-around;
+	font-size:20px;
+	}
+
+.box{
+	width:30%;
+	padding:20px;
+	box-sizing:border-box;
+	border:#333 3px solid;
+	border-radius:20px;
+	}
+/*==============================*/
+.box1{
+	background-color:#F90;
+	}
+b{
+	font-family: Entypo;
+	font-size: 75px;
+	vertical-align: middle;
+	font-weight: normal;
+}
+/*==============================*/
+.box2{
+	background-color:#9C0;
+}
+.box2 ul li{
+	list-style: none;
+}
+i{
+	font-family: sosa;
+	font-size: 70px;
+	font-style: normal;
+}
+/*==============================*/	
+.box3{
+	background-color:#09F;
+}
+.box3 ul{
+	
+}
+.box3 ul li{
+	list-style: none;
+}
+.box3 ul li a{
+	display: block;
+	width: 160px;
+	height: 50px;
+	text-decoration: none;
+	line-height: 50px;
+	margin-bottom: 8px;
+	vertical-align: middle;
+	
+}
+.box3 ul li a span{
+	font-family: sosa;
+	font-size: 50px;
+	display: inline-block;
+}
+.box3 ul li a:hover {
+	background-color: #B931EC;
+	color: #DFEF40;
+	transform: rotate(15deg);
+}
+.box3 ul li a:hover span{
+	color: aqua;
+	
+}
+	
+/*======字型嵌入======*/
+@font-face {
+	font-family: xxx;
+	src: url(3Dumb-webfont.eot),
+		url(3Dumb-webfont.svg),
+		url(3Dumb-webfont.ttf),
+		url(3Dumb-webfont.woff);
+}
+@font-face{
+	font-family: Entypo;
+	src:url(Entypo-webfont.eot),
+		url(Entypo-webfont.svg),
+		url(Entypo-webfont.ttf),
+		url(Entypo-webfont.woff);
+}
+@font-face{
+	font-family: sosa;
+	src: url(sosa-regular-webfont.ttf);
+}
+
+
+
+

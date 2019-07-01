@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html,body{
+	font-size: 18px;
+	font-family: Helvetica, Arial,"微軟正黑體","sans-serif"; 
+	background-color: #DFF0BA;
+}
+.header{
+	position: relative;
+	height: 120px;
+}
+.header h1{
+	position: absolute;
+	left: 2px;
+	top: 41px;
+}
+.header ul{
+	position: absolute;
+	right: 7px;
+	top: 46px;
+}
+.header li{
+	list-style: none;
+	float: left;
+	padding-right: 20px;
+	
+}
+.header li a{
+	color:chocolate;
+}
+.header li a:hover{
+	color: darkgreen;
+}
+
+.banner{}
+.banner img{
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+.office{
+	display:flex; 
+	justify-content: center;
+	}
+
+.office .ofbox{
+	margin: 1%;	
+	
+	background-color: #AFF5D3;
+}
+.office .ofbox img{
+	width: 100%;
+}
+.office .ofbox p{}
+
+.ad{
+	display: flex;
+}
+.adbox{}
+.ad img{
+	width: 100%;
+	
+}
+
+.nav{
+	display: flex;
+	justify-content: center;
+}
+.nav .navbox{
+	
+	margin: 2%;
+	background-color: #F3A2F8;
+	width: 100%;
+}
+.nav .navbox p{}
+.nav .navbox ul{
+	padding: 1%;
+}
+.nav .navbox li{
+	
+	list-style: none;
+}
+.nav .navbox li a{
+	padding-left: 18px;
+}
+.nav .navbox li a:hover{}
+
+.footer{
+	background-color: #000000;
+	color: #F1F0F0;
+	text-align: center;
+}
+.footer h2{}
+.footer p{}
+
+
+
+
+
+/*平板*/
+@media screen and (max-width: 1200px) and (min-width: 769px) {
+	.office{
+	display:flex; 
+	justify-content: center;
+	flex-wrap: wrap;
+	}
+
+.office .ofbox{
+	margin: 1%;	
+	
+	background-color: #AFF5D3;
+}
+.office .ofbox {
+	width: 40%;
+}
+.office .ofbox p{
+	
+	}
+
+.ad {
+	flex-wrap: wrap;
+}
+.ad .adbox {
+	width: 50%;
+}
+.nav {
+	flex-wrap: wrap;
+	
+}
+.nav .navbox {
+	width : 40%;
+}
+}
+
+
+/*手機*/
+@media screen and (max-width: 768px) {
+.office{
+	
+	flex-wrap: wrap;
+	
+	}
+.office .ofbox {
+	width: 80%;
+}
+.ad {
+	flex-wrap: wrap;
+}
+.ad .adbox {
+	width: 100%;
+}
+.nav {
+	flex-wrap: wrap;
+	
+}
+.nav .navbox {
+	width : 80%;
+	}	
+}
